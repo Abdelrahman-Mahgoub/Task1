@@ -1,0 +1,914 @@
+    body{
+        font-family: 'Inter' , sans-serif;
+    }
+    header{
+        width: 1140px;
+        height: auto ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(11,149,134,1);
+        padding-left: 220px ;
+        padding-right: 150px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        font-size: 18px;
+        letter-spacing: 0.94px;
+        font-weight: 400;
+        font-family: 'Inter' , sans-serif;
+        color: rgb(255,255,255,1);  
+    }
+    #logo{
+        width: 157px;
+        height: 54px;
+        mix-blend-mode: multiply;
+    }
+    nav{
+        height: auto;
+        width: auto;
+        gap: 8px;
+        display: flex;
+        flex-direction: row;
+    }
+    #Home{
+        height: auto;
+        width: auto;
+        border-bottom: 3px solid rgba(0,0, 0, 0.3);
+        border-radius: 5px;
+        background-color: rgba(0,0, 0, 0.06);
+        font-weight: 600;
+    }
+    #image{
+        width: 157px;
+        height: 54px;
+    }
+
+    .Buttons{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        padding-top: 8px;
+        padding-right: 28px;
+        padding-bottom: 8px;
+        padding-left: 28px;     
+        gap: 10px;
+    }
+    #contact{
+        height: 50px;
+        width: auto;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #Number{
+        text-align: end;
+        width: 216px;
+        font-weight: 700;
+        height: 28px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #Cal{
+        text-align: end ;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #contact {
+        align-items: center;
+        text-align: center;
+    }}
+    #Energy{
+    width: 1442px;
+    height: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.26)) ,url(GreenEnergy.jpg);
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+    padding-top: 86px; 
+    background-color: rgba(0,0, 0, 0.26);
+    padding-right: 150px;
+    }
+    #a1{
+        width: 332.83;
+        height: 24.77;
+        padding-left: 150px;
+        color: rgba(255, 255, 255, 1);
+        size: 18px;
+        font-weight: 400;
+        size: 18px;
+    }
+    #wh{
+        width: 89.01;
+        padding-top: 18.93;
+        padding-left:65.79 ;
+        border: 3.75px;
+        color:white;
+    }
+.container-hero-content{
+    height: auto;
+    width: 729px;
+    padding-left: 150px;
+    padding-top: 100px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#solar-panel{
+    width: 729px;
+    height: 126px;
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -2%;
+    color: rgba(255, 255, 255, 1);
+}
+#fuel{
+    width: 729px;
+    height: 90px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.Button{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    gap: 24px;
+}
+#call-us{
+    gap: 10px;
+    padding-top: 12px;
+    padding-right:34px ;
+    padding-bottom: 12px;
+    padding-left: 34px;
+    border: solid  rgba(60,171,144,1);
+    background-color: rgba(60,171,144,1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 109px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 8%;
+    line-height: 100%;
+}
+#request{
+    gap: 10px;
+    padding-top: 12px;
+    padding-right:34px ;
+    padding-bottom: 12px;
+    padding-left: 34px;
+    border: solid  rgba(255,187,28,1);
+    background-color: rgba(255,187,28,1);;
+    color: rgba(42, 51, 52, 1);
+    border-radius: 109px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 8%;
+    line-height: 100%;
+    text-decoration: none;
+}
+#friend{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    top: 736px;
+    padding-right: 150px;
+}
+#third{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    padding-top:80px;
+    padding-bottom: 80px;
+    gap: 23px;
+}
+#info{
+    gap: 24px;
+    width: 594px;
+
+}
+#list{
+    padding-left: 150px;
+    float: left;
+
+}
+#installers{
+    width: 594px;
+    height: 102px;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: -2%;
+    color: rgba(16, 24, 40, 1);
+}
+#Solidarity{
+    width: 594px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(71, 84, 103, 1);
+}
+#Collaborate{
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(16, 24, 40, 1);
+}
+#sowar{
+    width: 518.52px;
+    height: 552px;
+}
+#shagara{
+    width: 469px;
+    height: 552px;
+    top: 80px;
+    left: 666.52px;
+    border-radius: 12px;
+    float: right;
+}
+#marwa7a{
+    background-image: url(marwa7a1.png);
+    width: 1440px;
+    height: 505px;
+    padding-right: 150px;
+}
+#windmill{
+   display: flex;
+   flex-direction: column;
+   width: 678px;
+   height: auto;
+   gap: 9px; 
+   padding-top: 100px;
+   padding-left: 150px;
+}
+#Power{
+    width: 678px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(255, 255, 255, 1);
+}
+#advice{
+   width: 678px;
+   height: 56px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 140%;
+   letter-spacing: 0%; 
+   color: rgba(255, 255, 255, 1);
+}
+#call-today{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+    gap: 10px;
+    border: 1px solid rgba(255, 187, 28, 1);
+    background-color: rgba(255, 187, 28, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    color: rgba(42, 51, 52, 1);
+    text-decoration: none;
+}
+#fourth{
+    height: auto;
+    width: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#both{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 936px;
+    height: 123px;
+    align-items: center;
+    padding-left: 50px;
+}
+#Solar-kits{
+    width: 936px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+}
+#complete{
+    width: 936px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.sowar{
+    width: 358.67px;
+    height: 240px;
+
+}
+#boxat{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: auto;
+    width: 1140px;
+    padding-top: 100px;  
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 358.67px;
+    height: 464px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.hea{
+    width: 318.67px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(16, 24, 40, 1);
+    padding-left: 16px;
+}
+.para{
+    width: 318.67;
+    height: 72px;
+    font-weight: 40;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(71, 84, 103, 1);
+    padding-left: 16px;
+    padding-bottom: 15px;
+}
+.viewproduct{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    height: auto;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(60, 171, 144, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 16px;
+}
+#rep{
+    background-image: url(testss.png)  ;
+    width: 1440px;
+    height: 505px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+}
+#repa{
+    display: flex;
+    flex-direction: column;
+    padding: 44px;
+    box-shadow: 0px 0px 24px 0px ;
+    border-radius: 12px;
+    width: 858px;
+    height: 311px;
+    gap: 32px;
+    border: 0px solid rgba(0, 0, 0, 0.57); 
+    background-color: rgba(0, 0, 0, 0.57);
+    align-items: center;
+
+}
+#repairs{
+    width: 770px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+#we{
+    text-align: center;
+    width: 770px;
+    height: 140px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 1);
+}
+#love{
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    gap: 32px;
+    width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+#Heading-icon{
+    display: flex;
+    flex-direction: column;
+    width: 358.67px;
+    height: auto;
+    gap: 5px;
+}
+#heading-supporting{
+    display: flex;
+    flex-direction: column;
+    width: 358.67px;
+    height: auto;
+    gap: 5px;
+}
+#zap-fast{
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(60, 171, 144, 0.15);
+    color: rgba(60, 171, 144, 1);
+    border-radius: 10px;
+    background-color: rgba(60, 171, 144, 1);
+    justify-content: center;
+    text-align: center;
+}
+#Energy-Innovaters{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(16, 24, 40, 1);
+}
+#lorem{
+    width: 358.67px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.content{
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 358.67px;
+    padding-left: 35px;    
+}
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    width: 358.67px;
+    height: auto;
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 12px;
+    background-color: rgba(60, 171, 144, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);    
+}
+.place-holder{
+    display: flex;
+    flex-direction: column;
+    height: 106px;
+    width: 310.67px;
+    padding: 10px;
+    gap: 10px;
+    border: 0px solid rgba(60, 171, 144, 0.15);
+    border-radius: 10px;
+    background-color: rgba(60, 171, 144, 0.15);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.place{
+    width: 225px;
+    height: 49px;
+    mix-blend-mode: luminosity;
+    padding-left: 30px;
+}
+.sun{
+  width: 310.67px;
+  height: auto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(16, 24, 40, 1);  
+}
+.details{
+    width: 310.67px;
+    height: auto;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(71, 84, 103, 1);
+}
+.view-integration{
+    text-decoration: none;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 24px;
+    color: rgba(60, 171, 144, 1);
+}
+#values{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: auto;
+    gap: 32px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 150px;    
+}
+#more-than{
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: auto;
+    gap: 28px; 
+    justify-content: center;   
+}
+#our-values{
+    text-align: center;
+    width: 1140px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(16, 24, 40, 1);
+}
+#more{
+    text-align: center;
+    width: 1140px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%; 
+    color: rgba(71, 84, 103, 1);   
+}
+#goal{
+    display: flex;
+    flex-direction: row; 
+    height: auto;
+    width: 1140px;
+    gap: 32px;
+}
+.explain{
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 358.97px;
+    border: 1px solid rgba(60, 171, 144, 1);
+    padding: 32px;
+    border-radius: 12px;
+    gap: 20px;
+    background-color: rgba(60, 171, 144, 0.05);
+}
+.Customer-care{
+   width: 70px;
+   height: 70px; 
+}
+.price{
+  width: 147px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(16, 24, 40, 1);  
+}
+.sustainability{
+    width: 294.67px;
+    height: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(71, 84, 103, 1);
+}
+#say{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 32px;
+    padding-right: 150px;
+}
+#WOC{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 296px;
+    gap: 28px;
+}
+#quotation{
+    width: 58.33px;
+    height: 48px;
+}
+#what{
+    width: 400px;
+    height: 128px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgba(28, 28, 28, 1);
+}
+#online{
+    width: 400px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: rgba(28, 28, 28, 1);
+}
+#sondo2{
+    display: flex;
+    flex-direction: column;
+    width: 708px;
+    height: auto;
+    padding: 40px;
+    gap: 87px;
+    border: 0px solid rgba(60, 171, 144, 0.06);
+    border-radius: 24px;
+    background-color: rgba(60, 171, 144, 0.06);    
+}
+#dots{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: auto;
+    width: 628px;
+    gap: 40px; 
+}
+#next{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 516px;
+    height: auto;
+}
+#they-say{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(60, 171, 144, 1);
+}
+#study{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: rgba(16, 24, 40, 1);
+}
+#group{
+    width: 72px;
+    height: 8px;
+}
+#prev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 628px;
+    height: auto;  
+}
+#profile{
+    width: 302px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+#pp{
+   width: 60px;
+   height: 60px;
+   border: 0px solid;
+   border-radius: 30px; 
+}
+#username{
+    width: 125px;
+    height: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: rgba(28, 28, 28, 1);
+    padding-left: 15px;
+}
+#job{
+    width: 234px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: rgba(28, 28, 28, 1);
+    padding-left: 15px;
+}
+#arrows{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    gap: 16px;
+}
+#arrow{
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(28, 28, 28, 1);
+    border-radius: 24px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 32px;
+    text-align: center;
+
+}
+#use{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;  
+    width: 1440px;
+    height: auto;
+    background-color: rgba(40, 54, 70, 1);
+    gap: 54px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#foot{
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    height: auto;
+    justify-content: space-around;     
+}
+#first-half{
+    gap: 38px;
+    display: flex;
+    flex-direction: column;
+    width: 499px;
+    height: auto;
+    margin-right: 200px;
+}
+#a5r-sora{
+    width: 185px;
+    height: 64px;
+    mix-blend-mode: luminosity;
+}
+#quarter{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: auto;
+    width: auto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 1);
+}
+#line{
+    width: 1140px;
+    height: 2px;
+    border: 1px solid rgba(113, 119, 125, 1);
+    background-color: rgba(113, 119, 125, 1);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 82px;
+    justify-content: space-between;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 50px;
+}
+#second-half{
+   display: flex;
+   flex-direction: row;
+   height: auto;
+   justify-content: space-between; 
+   width: 1140px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.26px;
+   color: rgba(146, 152, 159, 1);
+}
+.get{
+    width: 238px;
+    height: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 1);
+}
+#em-su{
+    display: flex;
+    flex-direction: row;  
+}
+#email{
+    width: 350px;
+    height: 48px;
+    border: 1px solid rgba(179, 189, 199, 1);
+    border-radius: 38px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.09);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    display: flex;
+    flex-direction: row;  
+}
+#Subscribe{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: auto;
+    gap: 10px;
+    border: 0px solid rgba(255, 187, 28, 1);
+    background-color: rgba(255, 187, 28, 1);
+    border-radius: 109px;
+    padding-top: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;  
+    justify-content: center;
+}
